@@ -104,10 +104,69 @@ i {
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
-
 .en {
   font-family: "handel gothic";
 }
 .en_s {
   font-family: "Dancing Script", cursive;
+}
+
+/* header */
+.innerHeader {
+  max-width: 1720px;
+  height: 110px;
+  line-height: 110px;
+  margin: auto;
+}
+.innerHeader .logo {
+  float: left;
+}
+.innerHeader .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* gnb + sns */
+.innerHeader .mainMenu {
+  float: right;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+span.bar {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 0;
+  height: 3px;
+  background: #e7e7e7;
+  transition: all 0.4s;
+}
+/* gnb */
+.innerHeader .mainMenu .gnb {
+  float: left;
+}
+.innerHeader .mainMenu .gnb li {
+  float: left;
+  margin: 0 20px;
+}
+.innerHeader .mainMenu .gnb li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #555;
+}
+/* sns */
+.innerHeader .mainMenu .sns {
+  float: left;
+  margin-left: 300px;
+}
+.innerHeader .mainMenu .sns li {
+  float: left;
+}
+.innerHeader .mainMenu .sns li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
 }
